@@ -1,0 +1,20 @@
+.Todo-wrapper {
+    display: flex;
+    align-items: center;
+    /* Vertically center content */
+}
+
+/* Style for the todo text */
+.Todo {
+    /* Add margin to the right to create space between the todo text and the delete button */
+    margin-right: 10px;
+    /* Adjust as needed */
+}
+
+/* Style for the delete button */
+.deleteButton {
+    padding: 5px 10px;
+    /* Adjust padding as needed */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+}

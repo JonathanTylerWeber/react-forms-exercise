@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
-import BoxList from './BoxList'
+import TodoList from './TodoList'
 
 function App() {
   return (
     <>
-      <h1>Boxes</h1>
+      <h1>Todo List</h1>
       <div>
-        <BoxList />
+        <TodoList />
       </div>
     </>
   )
